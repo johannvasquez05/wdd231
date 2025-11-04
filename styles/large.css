@@ -1,0 +1,52 @@
+@media only screen and (min-width: 38rem) {
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        border-bottom: solid 1px var(--secondary-color);
+    }
+
+    .navigation ul {
+        display: flex;
+    }
+
+    .navigation a {
+        border: none;
+    }
+
+    main {
+        display: grid;
+        grid-template-areas:
+            "home home"
+            "about photo"
+            "courses courses";
+        grid-template-columns: 2fr 1fr;
+    }
+
+    h1 {
+        grid-area: home;
+        margin-bottom: 0px;
+    }
+
+    .about-me {
+        grid-area: about;
+    }
+
+    .student {
+        grid-area: photo;
+    }
+
+    .web-courses {
+        grid-area: courses;
+    }
+
+    .course-container {
+        flex-direction: row;
+    }
+
+    .course-item {
+        width: 400px;
+    }
+}

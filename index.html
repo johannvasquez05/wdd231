@@ -4,13 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-
-    </title>
+    <meta name="description" content="Johann Vasquez Home page for WDD231">
+    <meta name="author" content="Johann Vasquez">
+    <title>Johann's Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script defer src="scripts/navigation.js"></script>
+    <script defer src="scripts/date.js"></script>
+    <script defer src="scripts/course.js"></script>
 </head>
 
 <body>
-<h1>WDD231</h1>
+    <header>
+        <img src="images/houses-fill.svg" alt="site logo" width="16" height="16">
+        <span>Johann's Home Page</span>
+        <button id="ham-btn" class="hamburger" aria-label="menu"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="chamber.html">Chamber Project</a></li>
+            <li><a href="final.html">Final Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>Hi! My name is Johann Vasquez, and I'm from Panama City, Panama. I've always been fascinated by how
+                technology works and the ways it can be used to solve real-world problems. That curiosity led me to
+                study software development at BYU, where I’m learning how to bring ideas to life through code.
+
+                What I enjoy most is creating things that people can actually use — like websites or apps that are
+                helpful, easy to navigate, and look great. It’s exciting to see a project go from a simple idea to
+                something real that others can interact with. I'm especially drawn to web development because it's such
+                a creative and constantly evolving space.
+
+                I also enjoy working with others, whether it’s on class projects or something more informal. There’s
+                always something new to learn from different perspectives, and collaboration often leads to better
+                results. Outside of school, I like keeping up with what's new in tech, whether it's a new app, tool, or
+                trend that’s shaping the future.
+
+                My goal is to become a well-rounded developer who not only writes good code but also understands
+                people’s needs and how technology can meet them. One day, I hope to start something of my own — maybe a
+                company or a project that makes a positive difference. I'm excited for what’s ahead and motivated to
+                keep learning, growing, and building along the way.</p>
+        </section>
+        <section class="student">
+            <h2>Student Photo</h2>
+            <img src="images/profile.webp" alt="profile image" loading="lazy">
+        </section>
+        <section id="courses" class="web-courses">
+            <h2>Web Certificate Courses</h2>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/johannvasquez05" target="_blank"><img src="images/github.svg" alt="github"
+                    width="16" height="16"></a>
+            <a href="https://pa.linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="16"
+                    height="16"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/twitter-x.svg" alt="twitter-x" width="16"
+                    height="16"></a>
+        </div>
+        <div class="info">
+            <p>&copy; <span id="currentyear"></span> Johann Vasquez — Panama</p>
+            <p class="date">Last Modification: <span id="lastmodified"></span></p>
+        </div>
+    </footer>
 </body>
 
 </html>
