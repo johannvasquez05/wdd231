@@ -1,0 +1,74 @@
+{
+  "businesses": [
+    {
+      "name": "Canal Tech Solutions",
+      "address": "Calle 50 y Aquilino de la Guardia, Ciudad de Panamá",
+      "phone": "+507 310-2201",
+      "website": "https://www.canaltech.pa",
+      "image": "canal-tech-solutions.webp",
+      "membershipLevel": 3,
+      "category": "Technology & IT Services",
+      "description": "IT consulting and cloud infrastructure for Panamanian businesses."
+    },
+    {
+      "name": "Tropical Breeze Café",
+      "address": "Casco Antiguo, Plaza Herrera, Ciudad de Panamá",
+      "phone": "+507 6050-1123",
+      "website": "https://www.tropicalbreezecafe.pa",
+      "image": "tropical-breeze-café.webp",
+      "membershipLevel": 1,
+      "category": "Hospitality & Dining",
+      "description": "Local coffee and fresh pastries with a view of the Historic District."
+    },
+    {
+      "name": "Isthmus Group",
+      "address": "Costa del Este Business Park, Panamá",
+      "phone": "+507 398-8845",
+      "website": "https://www.isthmusbuild.pa",
+      "image": "isthmus-group.webp",
+      "membershipLevel": 3,
+      "category": "Construction & Engineering",
+      "description": "Commercial and residential development experts."
+    },
+    {
+      "name": "Panama Green Logistics",
+      "address": "Zona Libre de Colón, Colón",
+      "phone": "+507 470-9920",
+      "website": "https://www.panamagreenlogistics.pa",
+      "image": "panama-green-logistics.webp",
+      "membershipLevel": 2,
+      "category": "Logistics & Transportation",
+      "description": "Sustainable freight forwarding and cargo solutions."
+    },
+    {
+      "name": "Vista Mar Boutique Hotel",
+      "address": "Avenida Balboa, Ciudad de Panamá",
+      "phone": "+507 250-7733",
+      "website": "https://www.vistamarhotel.pa",
+      "image": "vista-mar-boutique-hotel.webp",
+      "membershipLevel": 2,
+      "category": "Travel & Lodging",
+      "description": "Ocean-view rooms with luxury dining and rooftop amenities."
+    },
+    {
+      "name": "Metro Financial Advisors",
+      "address": "Torre Global Bank, Calle 50, Ciudad de Panamá",
+      "phone": "+507 391-0045",
+      "website": "https://www.metrofinance.pa",
+      "image": "metro-financial-advisors.webp",
+      "membershipLevel": 3,
+      "category": "Finance & Business Services",
+      "description": "Corporate advisory and investment services."
+    },
+    {
+      "name": "Pacifico Health Clinic",
+      "address": "Via España, Bella Vista, Ciudad de Panamá",
+      "phone": "+507 255-9090",
+      "website": "https://www.pacificohealth.pa",
+      "image": "pacifico-health-clinic.webp",
+      "membershipLevel": 1,
+      "category": "Healthcare",
+      "description": "Affordable family care and walk-in medical services."
+    }
+  ]
+}

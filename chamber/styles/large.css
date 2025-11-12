@@ -1,0 +1,30 @@
+@media only screen and (min-width: 38rem) {
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        border-bottom: solid 1px var(--secondary-color);
+    }
+
+    .navigation ul {
+        display: flex;
+    }
+
+    .navigation a {
+        border: none;
+        border-right: 1px solid var(--secondary-color);
+        padding: .8rem 2rem;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+    }
+
+    #members.grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
