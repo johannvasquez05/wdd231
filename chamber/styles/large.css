@@ -27,4 +27,19 @@
     #members.grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .main-info {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 15px;
+    }
+
+    .spotlight-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .hero-text {
+        font-size: 1.5rem;
+    }
 }

@@ -189,3 +189,67 @@ footer {
 .social a:hover {
     background-color: var(--background-color);
 }
+
+.main-info section {
+    background-color: #ddd;
+    margin: 25px;
+    padding: 10px;
+    border: var(--primary-color) 1px solid;
+    border-radius: .5em;
+}
+
+.main-info section h2 {
+    padding: 15px;
+}
+
+.events li {
+    padding: 10px;
+}
+
+.weather {
+    line-height: 2;
+    text-align: center;
+}
+
+.spotlight h2 {
+    text-align: center;
+    padding: 15px;
+}
+
+.spotlight-grid {
+    display: grid;
+    gap: 25px;
+    margin: 15px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.hero-text h1 {
+    color: white;
+}
+
+.cta {
+    display: inline-block;
+    background: #005BBB;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
