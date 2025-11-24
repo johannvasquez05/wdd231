@@ -138,6 +138,7 @@ h1 {
     text-align: center;
     justify-content: space-evenly;
     line-height: 2;
+    margin: 35px 15px;
 }
 
 .member-card img {
@@ -333,10 +334,6 @@ input[type="submit"]:hover {
 .member-card button:hover {
     background: var(--secondary-color);
     color: var(--text-color);
-}
-
-.member-card {
-    margin: 35px 15px;
 }
 
 dialog {
