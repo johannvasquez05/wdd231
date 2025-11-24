@@ -1,0 +1,44 @@
+:root {
+    --primary-color: #003B7A;
+    --secondary-color: #FFC72C;
+    --background-color: #fff;
+    --text-color: #1A1A1A;
+    --font-family: "Monserrat", sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.thankyou-container {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    justify-self: center;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.7rem 1.4rem;
+    text-decoration: none;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    background: var(--secondary-color);
+    color: var(--text-color);
+}

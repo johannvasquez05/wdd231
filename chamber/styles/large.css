@@ -42,4 +42,13 @@
     .hero-text {
         font-size: 1.5rem;
     }
+
+    .form-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .membership-cards h2 {
+        margin-top: 20px;
+    }
 }

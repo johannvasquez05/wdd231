@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Join the Panama City Chamber of Commerce. Apply for membership and explore our NP, Bronze, Silver, and Gold levels.">
+    <meta name="author" content="Johann Vasquez">
+    <link rel="icon" href="images/chamber-of-commerce.ico">
+    <meta property="og:title" content="Join the Panama City Chamber of Commerce">
+    <meta property="og:description"
+        content="Become a member and unlock exclusive benefits for your business or organization.">
+    <meta property="og:image"
+        content="https://johannvasquez05.github.io/wdd231/chamber/images/chamber-of-commerce.webp">
+    <meta property="og:url" content="https://johannvasquez05.github.io/wdd231/chamber/join.html">
+
+    <title>Panama City Chamber of Commerce Join page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script defer src="scripts/navigation.js"></script>
+    <script defer src="scripts/date.js"></script>
+    <script defer src="scripts/form.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/chamber-of-commerce-logo.webp" alt="site logo">
+        <span>Panama City Chamber of Commerce</span>
+        <button id="ham-btn" class="hamburger" aria-label="menu"></button>
+    </header>
+
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li class="current"><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+
+    <main class="form-grid">
+        <section>
+            <h1>Join the chamber of commerce</h1>
+            <h2 class="form-title">Membership Application</h2>
+
+            <form method="get" action="thankyou.html" id="joinForm">
+
+                <label>
+                    First Name:
+                    <input type="text" name="first-name" required title="Enter your first name"
+                        autocomplete="given-name">
+                </label>
+
+                <label>
+                    Last Name:
+                    <input type="text" name="last-name" required title="Enter your last name"
+                        autocomplete="family-name">
+                </label>
+
+                <label>
+                    Organizational Title:
+                    <input type="text" name="org-title" title="Letters, hyphens, and spaces only — minimum 7 characters"
+                        autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}"
+                        placeholder="Example: Marketing Lead">
+                </label>
+
+                <label>
+                    Email:
+                    <input type="email" name="email" required title="Enter a valid email" autocomplete="email"
+                        placeholder="example@company.com">
+                </label>
+
+                <label>
+                    Mobile Phone:
+                    <input type="tel" name="phone" required title="Enter your phone number" autocomplete="tel">
+                </label>
+
+                <label>
+                    Business / Organization Name:
+                    <input type="text" name="organization" required title="Organization name"
+                        autocomplete="organization">
+                </label>
+
+                <label>
+                    Membership Level:
+                    <select name="membership" required title="Choose a membership level">
+                        <option value="" disabled selected>Select a level</option>
+                        <option value="np">NP Membership</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
+
+                <label>
+                    Business Description:
+                    <textarea name="description" title="Describe your business" rows="4"></textarea>
+                </label>
+
+                <input type="hidden" id="formTimestamp" name="timestamp">
+
+                <input type="submit" value="Send Application" class="submit-btn">
+
+            </form>
+        </section>
+
+        <section class="membership-cards">
+            <h2>Membership Levels</h2>
+
+            <div class="member-card">
+                <h3>Non Profit Membership Level</h3>
+                <button class="open-modal" data-target="modal-np">Learn More</button>
+            </div>
+
+            <div class="member-card">
+                <h3>Bronze Membership Level</h3>
+                <button class="open-modal" data-target="modal-bronze">Learn More</button>
+            </div>
+
+            <div class="member-card">
+                <h3>Silver Membership Level</h3>
+                <button class="open-modal" data-target="modal-silver">Learn More</button>
+            </div>
+
+            <div class="member-card">
+                <h3>Gold Membership Level</h3>
+                <button class="open-modal" data-target="modal-gold">Learn More</button>
+            </div>
+        </section>
+
+    </main>
+
+    <dialog id="modal-np">
+        <h3>NP Membership Benefits</h3>
+        <p class="price">$0 / year</p>
+        <ul>
+            <li>No membership fee</li>
+            <li>Access to community events</li>
+            <li>Non-profit networking opportunities</li>
+            <li>Basic directory listing</li>
+        </ul>
+        <button class="close-modal">Close</button>
+    </dialog>
+
+    <dialog id="modal-bronze">
+        <h3>Bronze Membership Benefits</h3>
+        <p class="price">$150 / year</p>
+        <ul>
+            <li>Business directory listing</li>
+            <li>Event invitations</li>
+            <li>Basic advertising options</li>
+        </ul>
+        <button class="close-modal">Close</button>
+    </dialog>
+
+    <dialog id="modal-silver">
+        <h3>Silver Membership Benefits</h3>
+        <p class="price">$300 / year</p>
+        <ul>
+            <li>Featured directory listing</li>
+            <li>Spotlight advertising</li>
+            <li>Event discounts</li>
+            <li>Training workshops</li>
+        </ul>
+        <button class="close-modal">Close</button>
+    </dialog>
+
+    <dialog id="modal-gold">
+        <h3>Gold Membership Benefits</h3>
+        <p class="price">$600 / year</p>
+        <ul>
+            <li>Top-tier directory placement</li>
+            <li>Homepage spotlight ads</li>
+            <li>VIP event access</li>
+            <li>Exclusive business seminars</li>
+        </ul>
+        <button class="close-modal">Close</button>
+    </dialog>
+
+    <footer>
+        <div class="info">
+            <h4>Panama City Chamber of Commerce</h4>
+            <p>Avenida Empresarial 101,</p>
+            <p>Punta Pacifica, Ciudad de Panamá, Panamá</p>
+            <p>info@pc.org</p>
+            <p>+507 390-4821</p>
+        </div>
+
+        <div class="social">
+            <a href="https://github.com/johannvasquez05" target="_blank">
+                <img src="images/github.svg" alt="github" width="16">
+            </a>
+            <a href="https://pa.linkedin.com" target="_blank">
+                <img src="images/linkedin.svg" alt="linkedin" width="16">
+            </a>
+            <a href="https://x.com/" target="_blank">
+                <img src="images/twitter-x.svg" alt="twitter-x" width="16">
+            </a>
+        </div>
+
+        <div class="info-js">
+            <p>WDD231 Class Project</p>
+            <p>Johann Vasquez</p>
+            <p>&copy; <span id="currentyear"></span> Panama City — Chamber of Commerce</p>
+            <p class="date">Last Modification: <span id="lastmodified"></span></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
