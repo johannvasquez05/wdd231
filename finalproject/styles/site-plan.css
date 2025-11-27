@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #1e3a8a;
+    --secondary-color: #f3f4f6;
+    --accent-color: #e5e7eb;
+    --heading-font: Montserrat, sans-serif;;
+    --body-font: Roboto, sans-serif;;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 20px;
+    color: black;
+}
+
+h1, h2, h3 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--accent-color);
+}
+
+ul {
+    padding-left: 20px;
+}
+
+img {
+    margin-top: 10px;
+    max-width: 100%;
+    border: 1px solid var(--accent-color);
+    border-radius: 6px;
+}
