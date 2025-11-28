@@ -37,3 +37,7 @@ img {
     border: 1px solid var(--accent-color);
     border-radius: 6px;
 }
+
+.logo {
+    width: 25%;
+}
