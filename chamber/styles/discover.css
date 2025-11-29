@@ -1,11 +1,3 @@
-:root {
-    --primary-color: #003B7A;
-    --secondary-color: #FFC72C;
-    --background-color: #fff;
-    --text-color: #1A1A1A;
-    --font-family: "Monserrat", sans-serif;
-}
-
 .discover-main {
     margin: 2rem auto;
     padding: 0 1rem;
