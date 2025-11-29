@@ -2,19 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Panama City Chamber Directory — connect with local businesses, services, and professionals.">
+    <meta name="description" content="Discover Panama City: landmarks, parks, museums and more.">
     <meta name="author" content="Johann Vasquez">
-    <link rel="icon" href="images/chamber-of-commerce.ico">
     <meta property="og:title" content="Panama City Chamber of Commerce">
     <meta property="og:description"
         content="Connecting businesses, promoting local growth, and fostering community success in Panama City. Discover events, directories, and membership benefits.">
     <meta property="og:image"
         content="https://johannvasquez05.github.io/wdd231/chamber/images/chamber-of-commerce.webp">
-    <meta property="og:url" content="https://johannvasquez05.github.io/wdd231/chamber/directory.html">
-    <title>Panama City Chamber of Commerce Directory</title>
+    <meta property="og:url" content="https://johannvasquez05.github.io/wdd231/chamber/discover.html">
+    <title>Discover — Panama City</title>
+    <link rel="icon" href="images/chamber-of-commerce.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -23,10 +22,13 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/discover.css">
+    <link rel="stylesheet" href="styles/discover-medium.css">
+    <link rel="stylesheet" href="styles/discover-large.css">
+
+    <script type="module" src="scripts/discover.js"></script>
     <script defer src="scripts/navigation.js"></script>
     <script defer src="scripts/date.js"></script>
-    <script defer src="scripts/members.js"></script>
-
 </head>
 
 <body>
@@ -35,23 +37,29 @@
         <span>Panama City Chamber of Commerce</span>
         <button id="ham-btn" class="hamburger" aria-label="menu"></button>
     </header>
+
     <nav id="nav-bar" class="navigation">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="discover.html">Discover</a></li>
-            <li class="current"><a href="directory.html">Directory</a></li>
+            <li class="current"><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
-    <main>
-        <h1>Directory</h1>
-        <section class="view-toggle">
-            <button id="grid">Grid View</button>
-            <button id="list">List View</button>
+
+    <main class="discover-main">
+        <section class="intro">
+            <h1>Discover Panama City</h1>
+            <p>Explore notable places and attractions in and around Panama City.</p>
+
+            <div id="visitMessage" class="visit-message" aria-live="polite"></div>
         </section>
 
-        <section id="members" class="grid"></section>
+        <section id="grid" class="discover-grid" aria-label="Places of interest"></section>
+
+        <section id="modals"></section>
     </main>
+
     <footer>
         <div class="info">
             <h4>Panama City Chamber of Commerce</h4>

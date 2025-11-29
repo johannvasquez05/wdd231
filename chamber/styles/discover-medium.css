@@ -1,0 +1,19 @@
+@media (min-width: 641px) and (max-width: 1024px) {
+    .discover-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "a1 a2"
+            "a3 a4"
+            "a5 a6"
+            "a7 a8";
+    }
+
+    .discover-grid .card figure img {
+        transition: transform 300ms ease, filter 300ms ease;
+    }
+
+    .discover-grid .card:hover figure img {
+        transform: scale(1.04);
+        filter: brightness(0.95) saturate(1.05);
+    }
+}
