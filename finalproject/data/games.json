@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "genre": "Action-Adventure",
+    "year": 2017,
+    "rating": 97,
+    "image": "images/botw.webp",
+    "description": "An open-world adventure where players explore Hyrule, solve puzzles, and defeat enemies."
+  },
+  {
+    "id": 2,
+    "title": "God of War",
+    "genre": "Action",
+    "year": 2018,
+    "rating": 94,
+    "image": "images/gow.webp",
+    "description": "A story-driven adventure following Kratos and his son Atreus through Norse mythology."
+  },
+  {
+    "id": 3,
+    "title": "Minecraft",
+    "genre": "Sandbox",
+    "year": 2011,
+    "rating": 93,
+    "image": "images/minecraft.webp",
+    "description": "A block-building sandbox game where creativity and exploration are limitless."
+  },
+  {
+    "id": 4,
+    "title": "Fortnite",
+    "genre": "Battle Royale",
+    "year": 2017,
+    "rating": 83,
+    "image": "images/fortnite.webp",
+    "description": "A fast-paced battle royale featuring building mechanics and constant updates."
+  },
+  {
+    "id": 5,
+    "title": "Hollow Knight",
+    "genre": "Metroidvania",
+    "year": 2017,
+    "rating": 90,
+    "image": "images/hollowknight.webp",
+    "description": "A beautifully crafted 2D adventure through a mysterious insect kingdom."
+  },
+  {
+    "id": 6,
+    "title": "Stardew Valley",
+    "genre": "Simulation",
+    "year": 2016,
+    "rating": 89,
+    "image": "images/stardew.webp",
+    "description": "A relaxing farming and life simulation game with exploration and relationships."
+  },
+  {
+    "id": 7,
+    "title": "Super Mario Odyssey",
+    "genre": "Platformer",
+    "year": 2017,
+    "rating": 97,
+    "image": "images/odyssey.webp",
+    "description": "Mario travels through creative kingdoms in an adventure full of exploration."
+  },
+  {
+    "id": 8,
+    "title": "Cyberpunk 2077",
+    "genre": "RPG",
+    "year": 2020,
+    "rating": 86,
+    "image": "images/cyberpunk.webp",
+    "description": "A futuristic open-world RPG set in the neon-lit city of Night City."
+  },
+  {
+    "id": 9,
+    "title": "Celeste",
+    "genre": "Platformer",
+    "year": 2018,
+    "rating": 94,
+    "image": "images/celeste.webp",
+    "description": "A precision platformer about climbing a mountain and overcoming challenges."
+  },
+  {
+    "id": 10,
+    "title": "Rocket League",
+    "genre": "Sports",
+    "year": 2015,
+    "rating": 87,
+    "image": "images/rocketleague.webp",
+    "description": "Car soccer with fast-paced physics-based gameplay."
+  },
+  {
+    "id": 11,
+    "title": "Apex Legends",
+    "genre": "Battle Royale",
+    "year": 2019,
+    "rating": 89,
+    "image": "images/apex.webp",
+    "description": "A team-based battle royale with unique characters and abilities."
+  },
+  {
+    "id": 12,
+    "title": "Overwatch",
+    "genre": "FPS",
+    "year": 2016,
+    "rating": 91,
+    "image": "images/overwatch.webp",
+    "description": "A colorful hero shooter with unique characters and fast gameplay."
+  },
+  {
+    "id": 13,
+    "title": "Elden Ring",
+    "genre": "Action RPG",
+    "year": 2022,
+    "rating": 96,
+    "image": "images/eldenring.webp",
+    "description": "A massive open-world RPG by FromSoftware with exploration and challenging combat."
+  },
+  {
+    "id": 14,
+    "title": "Animal Crossing: New Horizons",
+    "genre": "Simulation",
+    "year": 2020,
+    "rating": 90,
+    "image": "images/acnh.webp",
+    "description": "A peaceful island life simulation with crafting, decorating, and villagers."
+  },
+  {
+    "id": 15,
+    "title": "Valorant",
+    "genre": "FPS",
+    "year": 2020,
+    "rating": 88,
+    "image": "images/valorant.webp",
+    "description": "A tactical shooter with characters who have unique abilities."
+  }
+]

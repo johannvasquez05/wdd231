@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Welcome to GameHub – your portal to game catalogs, reviews, and the latest gaming features.">
+    <meta name="author" content="Johann Vasquez">
+    <link rel="icon" href="images/Gamehub-icon.ico">
+    <meta property="og:title" content="GameHub – Home">
+    <meta property="og:description"
+        content="Explore new games, browse the catalog, and discover your next favorite title on GameHub.">
+    <meta property="og:image" content="https://johannvasquez05.github.io/wdd231/finalproject/images/gamehub.webp">
+    <meta property="og:url" content="https://johannvasquez05.github.io/wdd231/finalproject/index.html">
+    <title>GameHub – Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/basic.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <script type="module" src="scripts/index.mjs"></script>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo.webp" alt="GameHub Logo" class="logo">
+        <button id="ham-btn" class="hamburger" aria-label="menu"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/home-hero-large.webp" media="(min-width: 38rem)">
+                <img src="images/home-hero.webp" alt="Gamehub hero image" loading="lazy">
+            </picture>
+            <div class="hero-text">
+                <h1>GameHub</h1>
+                <p>Explore thousands of games, connect with players worldwide,</p>
+                <p>and experience the ultimate gaming adventure.</p>
+                <p>Your next favorite game is waiting.</p>
+                <a class="cta" href="games.html">Discover The Best Games!!!</a>
+            </div>
+        </section>
+
+        <section class="featured">
+            <h2>Featured Games</h2>
+            <div id="gameGrid" class="game-grid"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="info">
+            <span>GameHub <a href="https://www.youtube.com/watch?v=XpsugiU-Dmk">(Demostration video)</a></span>
+            <p>Your source for curated game recommendations and reviews.</p>
+            <p>Contact: support@gamehub.com</p>
+            <p>+507 390-4821</p>
+        </div>
+        <div class="social">
+            <a href="https://github.com/johannvasquez05" target="_blank"><img src="images/github.svg" alt="github"
+                    width="16" height="16"></a>
+            <a href="https://pa.linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="16"
+                    height="16"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/twitter-x.svg" alt="twitter-x" width="16"
+                    height="16"></a>
+        </div>
+        <div class="info-js">
+            <p>WDD231 Final Project</p>
+            <p>Johann Vasquez</p>
+            <p>&copy; <span id="currentyear"></span> GameHub— Leveling Up Your Gaming Experience</p>
+            <p class="date">Last Modification: <span id="lastmodified"></span></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

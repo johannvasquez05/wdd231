@@ -1,0 +1,90 @@
+.hero {
+    position: relative;
+    border-bottom: 4px solid var(--primary-color);
+    border-top: 4px solid #0b1c4b;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-decoration: underline var(--accent-color);
+}
+
+.cta {
+    display: inline-block;
+    background: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    border-radius: .25em;
+}
+
+.cta:hover {
+    color: black;
+    background-color: var(--accent-color);
+}
+
+.featured {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.featured h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.game-card {
+    background: var(--accent-color);
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.25s ease;
+}
+
+.game-card:hover {
+    transform: scale(1.03);
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.8rem;
+}
+
+.game-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+
+@media (min-width: 38rem) {
+
+    .hero-text {
+        left: 20px;
+    }
+
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Get in touch with GameHub. Send us your questions, feedback, or suggestions through our contact form.">
+    <meta name="author" content="Johann Vasquez">
+    <link rel="icon" href="images/Gamehub-icon.ico">
+    <meta property="og:title" content="GameHub – Contact Us">
+    <meta property="og:description"
+        content="Reach out to GameHub using our contact form. We're here to help with questions, feedback, and game suggestions.">
+    <meta property="og:image" content="https://johannvasquez05.github.io/wdd231/finalproject/images/gamehub.webp">
+    <meta property="og:url" content="https://johannvasquez05.github.io/wdd231/finalproject/contact.html">
+    <title>GameHub – Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/basic.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <script type="module" src="scripts/contact.mjs"></script>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo.webp" alt="GameHub Logo" class="logo">
+        <button id="ham-btn" class="hamburger" aria-label="menu"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li class="current"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Contact</h1>
+    <main class="container">
+
+        <form id="contactForm" action="thankyou.html" method="GET">
+
+            <label for="name">
+                Name:
+                <input type="text" id="name" name="name" autocomplete="name" placeholder="Your name" required>
+            </label>
+
+            <label for="email">
+                Email:
+                <input type="email" id="email" name="email" autocomplete="email" placeholder="you@example.com" required>
+            </label>
+
+            <label for="favorite">
+                Favorite Game:
+                <input type="text" id="favorite" name="favorite" autocomplete="off" placeholder="Enter a game" required>
+            </label>
+
+            <label for="message">
+                Message:
+                <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+            </label>
+
+            <button type="submit" id="submitBtn">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="info">
+            <span>GameHub <a href="https://www.youtube.com/watch?v=XpsugiU-Dmk">(Demostration video)</a></span>
+            <p>Your source for curated game recommendations and reviews.</p>
+            <p>Contact: support@gamehub.com</p>
+            <p>+507 390-4821</p>
+        </div>
+        <div class="social">
+            <a href="https://github.com/johannvasquez05" target="_blank"><img src="images/github.svg" alt="github"
+                    width="16" height="16"></a>
+            <a href="https://pa.linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="16"
+                    height="16"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/twitter-x.svg" alt="twitter-x" width="16"
+                    height="16"></a>
+        </div>
+        <div class="info-js">
+            <p>WDD231 Final Project</p>
+            <p>Johann Vasquez</p>
+            <p>&copy; <span id="currentyear"></span> GameHub— Leveling Up Your Gaming Experience</p>
+            <p class="date">Last Modification: <span id="lastmodified"></span></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

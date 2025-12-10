@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thank you for contacting GameHub! Your message has been received successfully.">
+    <meta name="author" content="Johann Vasquez">
+    <link rel="icon" href="images/gamehub-icon.ico">
+    <meta property="og:title" content="GameHub – Thank You">
+    <meta property="og:description"
+        content="Your message has been successfully submitted to GameHub. We appreciate your feedback!">
+    <meta property="og:image" content="https://johannvasquez05.github.io/wdd231/finalproject/images/gamehub.webp">
+    <meta property="og:url" content="https://johannvasquez05.github.io/wdd231/finalproject/thankyou.html">
+    <title>GameHub – Thank You</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/basic.css">
+    <link rel="stylesheet" href="styles/thankyou.css">
+    <script type="module" src="scripts/thankyou.mjs"></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.webp" alt="GameHub Logo" class="logo">
+        <button id="ham-btn" class="hamburger" aria-label="menu"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Thank you!</h1>
+        <p>We have received your message.</p>
+
+        <section class="output-box">
+            <h2>Your Information</h2>
+
+            <p><strong>Name:</strong> <span id="name"></span></p>
+            <p><strong>Email:</strong> <span id="email"></span></p>
+            <p><strong>Favorite Game:</strong> <span id="favorite"></span></p>
+            <p><strong>Message:</strong> <span id="message"></span></p>
+        </section>
+
+        <a class="back-btn" href="contact.html">Go Back</a>
+    </main>
+
+    <footer>
+        <div class="info">
+            <span>GameHub <a href="https://www.youtube.com/watch?v=XpsugiU-Dmk">(Demostration video)</a></span>
+            <p>Your source for curated game recommendations and reviews.</p>
+            <p>Contact: support@gamehub.com</p>
+            <p>+507 390-4821</p>
+        </div>
+        <div class="social">
+            <a href="https://github.com/johannvasquez05" target="_blank"><img src="images/github.svg" alt="github"
+                    width="16" height="16"></a>
+            <a href="https://pa.linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="16"
+                    height="16"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/twitter-x.svg" alt="twitter-x" width="16"
+                    height="16"></a>
+        </div>
+        <div class="info-js">
+            <p>WDD231 Final Project</p>
+            <p>Johann Vasquez</p>
+            <p>&copy; <span id="currentyear"></span> GameHub— Leveling Up Your Gaming Experience</p>
+            <p class="date">Last Modification: <span id="lastmodified"></span></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
